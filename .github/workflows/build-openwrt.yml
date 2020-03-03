@@ -9,13 +9,13 @@
 name: Build OpenWrt - 2020/03/03 15:21
 
 on:
-  release:
-    types: [published]
+  #release:
+  #  types: [published]
   push:
     branches:
       - master
-    paths:
-      - '.config'
+  #  paths:
+  #    - '.config'
 #  schedule:
 #    - cron: 0 8 * * 5
 #  watch:
